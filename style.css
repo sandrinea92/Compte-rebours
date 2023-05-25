@@ -1,0 +1,32 @@
+html body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Jost', sans-serif;
+    color: #ffe1d4;
+}
+
+#centre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#btnStart {
+    height: 100px;
+    width: 250px;
+    font-size: 4.2em;
+    font-family: 'Jost', sans-serif;
+    color: #ffe1d4;
+    background: linear-gradient(145deg, #e67248, #ff8856);
+    border: none;
+    border-radius: 25px;
+    box-shadow: 14px 14px 40px #e8cdc1,
+        -14px -14px 40px #fff5e7;
+}
+
+#nbrTimer {
+    color: #e67248;
+    font-size: 10em;
+}
